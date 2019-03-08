@@ -1,5 +1,5 @@
 android_app {
-    name: "DeviceHandler",
+    name: "DeviceHandlerOP3",
     certificate: "platform",
     optimize: {
         enabled: false,

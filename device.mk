@@ -243,7 +243,7 @@ PRODUCT_PACKAGES += \
 
 # DevicHandler
 PRODUCT_PACKAGES += \
-	DeviceHandler
+    DeviceHandlerOP3
 
 # Doze mode
 PRODUCT_PACKAGES += \
