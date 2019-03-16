@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keys xmlns:slim="http://schemas.android.com/apk/res-auto">
+    <key-category
+        slim:name="@string/screen_off_gesture_title"
+        slim:icon="@drawable/ic_screen_off_gestures"
+        slim:order="-70"
+        slim:allowDisable="true"
+        slim:key="screen_off_gestures">
+        <key
+            slim:name="@string/gesture_double_tap_title"
+            slimkeyCode="188"
+            slim:defaultAction="**wake_device**" />
+        <key
+            slim:name="@string/gesture_arrow_down_title"
+            slim:keyCode="191"
+            slim:defaultAction="**ring_vib_silent**" />
+        <key
+            slim:name="@string/gesture_arrow_left_title"
+            slim:keyCode="192"
+            slim:defaultAction="**media_previous**" />
+        <key
+            slim:name="@string/gesture_arrow_right_title"
+            slim:keyCode="193"
+            slim:defaultAction="**media_next**" />
+        <key
+            slim:name="@string/gesture_arrow_up_title"
+            slim:keyCode="194"
+            slim:defaultAction="**torch**" />
+        <key
+            slim:name="@string/gesture_double_swipe_title"
+            slim:keyCode="190"
+            slim:defaultAction="**media_play_pause**" />
+        <key
+            slim:name="@string/gesture_up_swipe_title"
+            slim:keyCode="199"
+            slim:defaultAction="**null**" />
+        <key
+            slim:name="@string/gesture_down_swipe_title"
+            slim:keyCode="200"
+            slim:defaultAction="**null**" />
+        <key
+            slim:name="@string/gesture_left_swipe_title"
+            slim:keyCode="195"
+            slim:defaultAction="**null**" />
+        <key
+            slim:name="@string/gesture_right_swipe_title"
+            slim:keyCode="199"
+            slim:defaultAction="**null**" />
+        <key
+            slim:name="@string/gesture_circle_title"
+            slim:keyCode="189"
+            slim:defaultAction="**camera**" />
+        <key
+            slim:name="@string/gesture_m_title"
+            slim:keyCode="198"
+            slim:defaultAction="**none**" />
+        <key
+            slim:name="@string/gesture_w_title"
+            slim:keyCode="197"
+            slim:defaultAction="**none**" />
+        <key
+            slim:name="@string/gesture_s_title"
+            slim:keyCode="201"
+            slim:defaultAction="**none**" />
+    </key-category>
+    <key-category
+        slim:name="@string/buttons_title"
+        slim:icon="@drawable/ic_buttons"
+        slim:order="-80"
+        slim:allowDisable="true"
+        slim:key="hw_keys">
+        <key
+            slim:name="@string/left_button"
+            slim:keyCode="4"
+            slim:supportsMultipleActions="true"
+            slim:defaultAction="**back**" />
+        <key
+            slim:name="@string/home_button"
+            slim:keyCode="3"
+            slim:supportsMultipleActions="true"
+            slim:defaultAction="**home**" />
+        <key
+            slim:name="@string/right_button"
+            slim:keyCode="187"
+            slim:supportsMultipleActions="true"
+            slim:defaultAction="**recents**" />
+    </key-category>
+</keys>
