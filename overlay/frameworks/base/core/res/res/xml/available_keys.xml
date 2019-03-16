@@ -13,7 +13,7 @@
         <key
             slim:name="@string/gesture_arrow_down_title"
             slim:keyCode="191"
-            slim:defaultAction="**ring_vib_silent**" />
+            slim:defaultAction="**torch**" />
         <key
             slim:name="@string/gesture_arrow_left_title"
             slim:keyCode="192"
@@ -25,7 +25,7 @@
         <key
             slim:name="@string/gesture_arrow_up_title"
             slim:keyCode="194"
-            slim:defaultAction="**torch**" />
+            slim:defaultAction="**null**" />
         <key
             slim:name="@string/gesture_double_swipe_title"
             slim:keyCode="190"
