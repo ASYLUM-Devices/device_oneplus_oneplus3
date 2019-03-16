@@ -8,7 +8,7 @@
         slim:key="screen_off_gestures">
         <key
             slim:name="@string/gesture_double_tap_title"
-            slimkeyCode="188"
+            slim:keyCode="188"
             slim:defaultAction="**wake_device**" />
         <key
             slim:name="@string/gesture_arrow_down_title"
