@@ -53,15 +53,15 @@
         <key
             slim:name="@string/gesture_m_title"
             slim:keyCode="198"
-            slim:defaultAction="**none**" />
+            slim:defaultAction="**null**" />
         <key
             slim:name="@string/gesture_w_title"
             slim:keyCode="197"
-            slim:defaultAction="**none**" />
+            slim:defaultAction="**null**" />
         <key
             slim:name="@string/gesture_s_title"
             slim:keyCode="201"
-            slim:defaultAction="**none**" />
+            slim:defaultAction="**null**" />
     </key-category>
     <key-category
         slim:name="@string/buttons_title"
