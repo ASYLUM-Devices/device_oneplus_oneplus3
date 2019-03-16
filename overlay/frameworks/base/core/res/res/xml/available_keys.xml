@@ -44,7 +44,7 @@
             slim:defaultAction="**null**" />
         <key
             slim:name="@string/gesture_right_swipe_title"
-            slim:keyCode="199"
+            slim:keyCode="196"
             slim:defaultAction="**null**" />
         <key
             slim:name="@string/gesture_circle_title"
